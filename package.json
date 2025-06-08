@@ -1,0 +1,45 @@
+{
+  "name": "dns-amplification-attack-simulator",
+  "version": "1.0.0",
+  "description": "Educational DNS Amplification Attack Simulator for cybersecurity learning",
+  "main": "dns_amplification_simulator.js",
+  "keywords": [
+    "dns",
+    "amplification", 
+    "ddos",
+    "cybersecurity",
+    "educational",
+    "simulation",
+    "network-security"
+  ],
+  "author": "Educational Purpose",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "dns-packet": "^5.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node dns_amplification_simulator.js",
+    "demo": "node demo.js",
+    "ip-spoof-demo": "node ip_spoofing_simulator.js",
+    "install-deps": "npm install dns-packet",
+    "help": "echo '\nSử dụng:\n- npm start: Chạy DNS Amplification Simulator\n- npm run demo: Chạy demo tổng hợp\n- npm run ip-spoof-demo: Chạy IP Spoofing Simulator\n'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "educational-simulation"
+  },
+  "warnings": [
+    "⚠️ CẢNH BÁO: Mã này chỉ dành cho mục đích giáo dục",
+    "⚠️ KHÔNG được sử dụng để thực hiện tấn công thực tế",
+    "⚠️ Việc tấn công mạng là bất hợp pháp"
+  ],
+  "educational_disclaimer": {
+    "purpose": "Educational and cybersecurity research only",
+    "legal_notice": "Using this for actual attacks is illegal and unethical",
+    "responsibility": "Users are fully responsible for lawful use"
+  }
+}
